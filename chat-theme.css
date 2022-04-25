@@ -71,15 +71,12 @@ body {
 		transform var(--animation-duration) cubic-bezier(0.23, 1, 0.320, 1);
 }
 [data-twitch-message]:nth-last-child(n + 3) {
-	opacity: 0.5;
+	opacity: 0.4;
 }
 [data-twitch-message]:nth-last-child(n + 4) {
-	opacity: 0.3;
+	opacity: 0.2;
 }
 [data-twitch-message]:nth-last-child(n + 5) {
-	opacity: 0.1;
-}
-[data-twitch-message]:nth-last-child(n + 6) {
 	opacity: 0;
 }
 
