@@ -31,7 +31,7 @@ body {
 	list-style: none;
 	height: 100vh;
 	display: flex;
-	flex-direction: column-reverse;
+	flex-direction: column;
 	justify-content: flex-end;
 	color: var(--night);
 }

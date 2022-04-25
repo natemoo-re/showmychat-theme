@@ -2,6 +2,7 @@
 
 [data-twitch-chat] {
 	padding-top: 24px;
+	padding-bottom: 64px;
 }
 [data-twitch-message]:not(:last-of-type) {
 	opacity: 0.6;
