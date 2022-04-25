@@ -36,7 +36,7 @@ body {
 	color: var(--night);
 }
 
-[data-twitch-message] {
+:where([data-twitch-message]) {
 	border-radius: 4px;
 	background-image: radial-gradient(circle at top left, white, var(--off-white));
 	margin: 0;
