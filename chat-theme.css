@@ -50,6 +50,12 @@ body {
 	transform: scale(0.975);
 	animation: show var(--animation-duration) 120ms
 		cubic-bezier(0.23, 1, 0.320, 1) forwards;
+	box-shadow:
+		0px 0.9px 2.3px -25px rgba(0, 0, 0, 0.017),
+		0px 2.5px 7.9px -25px rgba(0, 0, 0, 0.025),
+		0px 6px 16.9px -25px rgba(0, 0, 0, 0.033),
+		0px 20px 31px -25px rgba(0, 0, 0, 0.05)
+	;
 }
 
 .twitch-chat-message {
