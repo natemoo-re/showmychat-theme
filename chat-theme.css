@@ -52,6 +52,10 @@ body {
 		cubic-bezier(0.23, 1, 0.320, 1) forwards;
 }
 
+.twitch-chat-message {
+	line-height: 1.5;
+}
+
 @keyframes show {
 	100% {
 		opacity: 1;
