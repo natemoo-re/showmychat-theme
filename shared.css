@@ -59,7 +59,7 @@ body {
 
 .twitch-chat-message {
 	line-height: 1.44;
-	padding-right: 2em;
+	max-width: 64ch;
 }
 
 @keyframes show {
