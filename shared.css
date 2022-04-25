@@ -103,16 +103,10 @@ body {
 	text-decoration: none;
 }
 
-[data-twitch-sender-roles="broadcaster"] {
+[data-twitch-sender-roles="broadcaster"] .twitch-chat-sender {
 	background: linear-gradient(90deg, var(--tangerine), var(--tangerine), var(--rhubarb), var(--cobalt), var(--rhubarb), var(--tangerine), var(--tangerine));
 	background-size: 1200% 100%;
 	animation: gradient 30s linear infinite;
-}
-
-.gradient {
-  background: linear-gradient(90deg, var(--tangerine), var(--tangerine), var(--rhubarb), var(--cobalt), var(--rhubarb), var(--tangerine), var(--tangerine));
-  background-size: 1200% 100%;
-  animation: gradient 30s linear infinite;
 }
 
 @keyframes gradient {
